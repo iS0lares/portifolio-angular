@@ -103,6 +103,22 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'language-go.svg',
+      alt: 'Projeto Criando uma api em golang',
+      title:
+        'Criando uma api em go pra manipular json e fazer requisições http',
+      width: '100px',
+      height: '81px',
+      description:
+        'Iniciando estudos em Golang na criação de api usando pokemons json para ler e coletar imagens para fazer uma requisição http e salvar no diretório dentro do projeto.',
+      links: [
+        {
+          name: 'Api GO',
+          href: 'https://github.com/iS0lares/Api-Pokemon-Golang',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {

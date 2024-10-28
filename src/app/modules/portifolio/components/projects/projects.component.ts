@@ -119,6 +119,21 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'wifi.svg',
+      alt: 'Projeto Criando um CLI em golang',
+      title: 'IP Finder CLI.',
+      width: '100px',
+      height: '51px',
+      description:
+        'IP Finder CLI é um aplicação de interface de linha de comando (CLI) desenvolvido em Golang para pesquisar endereços IP e recuperar o nome onde o servidor está do endereço fornecido',
+      links: [
+        {
+          name: 'Ip Finder CLI GO',
+          href: 'https://github.com/iS0lares/Api-Pokemon-Golang',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
